@@ -11,6 +11,7 @@
   <ItemGroup>
     <Folder Include="Models\ViewModels\" />
     <Folder Include="Models\Enums\" />
+    <Folder Include="Views\Sellers\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Views\Departaments\_ViewImports.cshtml" />
