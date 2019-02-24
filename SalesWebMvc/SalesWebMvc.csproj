@@ -10,12 +10,17 @@
 
   <ItemGroup>
     <Folder Include="Models\ViewModels\" />
+    <Folder Include="Models\Enums\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Views\Departaments\_ViewImports.cshtml" />
     <Content Remove="Views\Departaments\Index.cshtml" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap_flatly.css" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Views\Departaments\Index.cshtml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap_flatly.css" />
   </ItemGroup>
 </Project>
