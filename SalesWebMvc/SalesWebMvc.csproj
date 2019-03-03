@@ -16,6 +16,7 @@
     <Folder Include="Views\Sellers\" />
     <Folder Include="Services\" />
     <Folder Include="Services\Exception\" />
+    <Folder Include="Views\SalesRecords\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Views\Departaments\_ViewImports.cshtml" />
